@@ -1,0 +1,115 @@
+body {
+    margin-left: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+section.intro {
+    /*border: 1px black solid;*/
+    /*margin-left: 3%; #283E51*/
+    text-align: center;
+    margin-right: 3%;
+    box-shadow: 5px 5px 5px #E4E7E9;
+    padding-bottom: 1%;
+    padding-right: 1%; 
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Sedgwick Ave Display';
+    font-size: 34px;
+}
+
+h2 {
+    font-family: 'Sedgwick Ave Display';
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.foto{
+    margin-left: 3%;
+}
+
+.descripcion {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.descripcion > p{
+    text-align: justify;
+}
+
+section > .list {
+    margin-left: 1%;
+    list-style: none;
+    text-align: center;
+    color: white;
+}
+
+.project {
+    text-align: justify;
+    /*border: 1px black solid;*/
+    margin-right: 3%;
+    box-shadow: 5px 5px 5px #E4E7E9;
+    margin-top: 2%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+}
+
+.hotel, .veterinario, .teatro {
+    padding: 2%;
+}
+
+.hotel:hover, .veterinario:hover, .teatro:hover {
+    background-color: #4B79A1;
+    box-shadow: 5px 5px 5px #949fa8;
+}
+
+.skill {
+    margin-right: 3%;
+    box-shadow: 5px 5px 5px #E4E7E9;
+    padding-bottom: 1%;
+    padding-right: 1%;   
+}
+
+a {
+    color: white;
+    padding: 2%;
+}
+
+.veterinario {
+    padding-bottom: 1%;
+}
+
+footer {
+    box-shadow: 5px 5px 5px #E4E7E9;
+    text-align: center;
+    margin-right: 3%;
+    margin: 3% 3% 3% 1%;
+}
+
+footer > p{
+    padding: 2%;
+}
+/*
+.foto{
+    background-color: aqua;
+    margin-right: 50%;
+}
+
+.foto > img {
+    display: block;
+    margin-left: 2%;
+    margin-right: auto;
+    width: 30%;
+}
+
+.descripcion {
+    width: 100px;
+    background-color: blueviolet;
+}*/
