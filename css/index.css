@@ -51,6 +51,19 @@ section > .list {
     color: white;
 }
 
+.anJav {
+    animation-name: desaparicion;
+    animation-duration: 8s;
+    animation-iteration-count: 2;
+}
+
+.anHt{
+    animation-name: desaparicion;
+    animation-duration: 8s;
+    animation-iteration-count: 2;
+    animation-delay: 16s;
+}
+
 .project {
     text-align: justify;
     /*border: 1px black solid;*/
@@ -96,20 +109,16 @@ footer {
 footer > p{
     padding: 2%;
 }
-/*
-.foto{
-    background-color: aqua;
-    margin-right: 50%;
-}
 
-.foto > img {
-    display: block;
-    margin-left: 2%;
-    margin-right: auto;
-    width: 30%;
+@keyframes desaparicion {
+    0%   {
+        visibility: visible;
+        opacity: 1;
+        font-size: 45px;
+    }
+    
+    100% {
+        visibility: hidden;
+        opacity: 0;
+    }
 }
-
-.descripcion {
-    width: 100px;
-    background-color: blueviolet;
-}*/
