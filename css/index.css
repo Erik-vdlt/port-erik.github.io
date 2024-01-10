@@ -64,6 +64,34 @@ section > .list {
     animation-delay: 16s;
 }
 
+.anCSS{
+    animation-name: desaparicion;
+    animation-duration: 8s;
+    animation-iteration-count: 2;
+    animation-delay: 32s;
+}
+
+.anJa{
+    animation-name: desaparicion;
+    animation-duration: 8s;
+    animation-iteration-count: 2;
+    animation-delay: 48s;
+}
+
+.anPy{
+    animation-name: desaparicion;
+    animation-duration: 8s;
+    animation-iteration-count: 2;
+    animation-delay: 64s;
+}
+
+.anMy{
+    animation-name: desaparicion;
+    animation-duration: 8s;
+    animation-iteration-count: 2;
+    animation-delay: 80s;
+}
+
 .project {
     text-align: justify;
     /*border: 1px black solid;*/
