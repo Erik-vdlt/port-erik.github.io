@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Portafolio</title>
+</head>
+<body class="mx-2 px-4">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top border">
+        <div class="container-fluid position-sticky">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link text-black" aria-current="page" href="#abo">Sobre mi</a>
+              <a class="nav-link" aria-current="page" href="#tec">Tecnologias</a>
+              <a class="nav-link" aria-current="page" href="#">Proyectos</a>
+              <a class="nav-link" aria-current="page" href="#final">Footer</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section id="abo" class="border mt-5 pt-3">
+        <h1>Sobre mi</h1>
+          <p>
+            Mi nombre es Erik, soy programador que le gusta el backend y software, aunque también he hecho proyectos fronend y móviles. Mis pasatiempos son las películas y series,
+            he leído solo algunos libros pero solo después de ver la película porque me intereso como seguía así que comencé a leerlos, por parte de 
+            las tecnologías me gusta la ciberseguridad pero solo como pasatiempo me gusta aprender un poco sobre eso. Me gusta mucho este campo ya que 
+            hay muchas ramas, aunque no se puede aprender todo siempre me sorprende lo que alguien con mucha imaginación puede lograr.
+          </p>
+      </section>
+
+      <section id="tec" class="border mt-5 pt-3">
+        <h1>Tecnologias</h1>
+        <!--Carrusel tecnologias-->
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/js-icon-2.png" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/html.png" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/css.png" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/py.png" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/java.png" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/mysql.png" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!--Fin del carrusel de tecnologias-->
+        <!--
+        <div class="list">
+          <li class="anJav">Javascript <img src="img/js-icon-2.png" alt="Icono de Freepik" srcset=""> <a href="https://www.freepik.es/icono/js_5968292#fromView=search&page=1&position=0&uuid=584a306b-4112-4969-9aff-be59e9f5ab02">Icono de Freepik</a><progress class="js" value="30" max="100">30%</progress></li>
+          <li class="anHt">Html <a href="https://www.freepik.es/icono/html-5_5968267#fromView=search&page=1&position=0&uuid=6b0ca00c-713f-4cf7-b4db-2a782abd12d5">Icono de Freepik</a><progress value="40" max="100">40%</progress> </li> 
+          <li class="anCSS">CSS <a href="https://www.freepik.es/icono/css-3_5968242#fromView=search&page=1&position=1&uuid=7b2f5779-cc7a-48d5-b1e2-cafc23b399cf">Icono de Freepik</a><progress value="35" max="100"></progress></li>
+          <li class="anJa">Java <a href="https://www.flaticon.es/iconos-gratis/java" title="java iconos">Java iconos creados por Freepik - Flaticon</a><progress value="45" max="100"></progress></li>
+          <li class="anPy">Python <a href="https://www.flaticon.es/iconos-gratis/archivo-de-python" title="archivo de python iconos">Archivo de python iconos creados por Flat Icons - Flaticon</a><progress value="45" max="100"></progress></li>
+          <li class="anMy">MySql <a href="https://www.flaticon.es/iconos-gratis/mysql" title="mysql iconos">Mysql iconos creados por Pixel perfect - Flaticon</a><progress value="30" max="100"></progress></li>
+          <li><a href="https://www.flaticon.es/iconos-gratis/nodo" title="nodo iconos">Nodo iconos creados por pocike - Flaticon</a></li>
+          <li><a href="https://www.flaticon.es/iconos-gratis/php" title="php iconos">Php iconos creados por Freepik - Flaticon</a></li>
+          <li><a href="https://www.flaticon.es/iconos-gratis/postgre" title="postgre iconos">Postgre iconos creados por Freepik - Flaticon</a></li>
+      </div>-->
+      </section>
+
+      <section>
+        <h1>Proyectos</h1>
+
+        <!--carrusel-->
+
+        <div id="carouselExample" class="carousel slide border border-black rounded" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2>Veterinaria</h2>
+                <p>
+                Proyecto de software para escritorio sobre una veterinaria para registro de mascotas, dueños y medicamentos
+                que son necesiarios. Las funciones del software debian ser un registro de informacion, eliminarla, hacer busquedas y actualizar
+                la informacion.
+                <br>
+                <br>
+                <b>Tecnologias Usadas</b>
+                <br>
+                <ol>
+                    <li>Pyqt4</li>
+                    <li>Python</li>
+                    <li>Mysql</li>
+                </ol>
+                <a href="https://github.com/Erik-vdlt/proyecto_logica">Repositorio</a>
+              </p>
+            </div>
+            <div class="carousel-item">
+              <h2>Hotel</h2>
+                <p>
+                    Proyecto CRUD para un hotel donde se registraban los huespedes y hacen reservaciones para su estancia,
+                    el proyecto fue hecho en netbeans, donde se hizo la interfaz grafica y registrar los datos en base de datos
+                    en PostgreSQL.
+                    <br><br>
+                    <b>Tecnologias Usadas</b>
+                    <br>
+                    <ol>
+                        <li>Java</li>
+                        <li>Netbeans</li>
+                        <li>PostgreSQL</li>
+                    </ol>
+                    <a href="https://github.com/Erik-vdlt/proyecto-administracion-bd/tree/master">Repositorio</a>
+                </p>
+            </div>
+            <div class="carousel-item">
+              <h2>Teatro</h2>
+                <p>
+                    Un proyecto web sobre un teatro que registra las obras que estaran disponibles, un CRUD y un login
+                    para registro de usuarios y un captcha. Dentro podemos registrar las obras de teatro que se presentaran
+                    para verano y que actores interpretaran los papeles.
+                    <br><br>
+                    <b>Tecnologias Usadas</b>
+                    <br>
+                    <ol>
+                        <li>JavaScript</li>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>PHP</li>
+                    </ol>
+                    <a href="https://bitbucket.org/programacion-web-tnmj/teatro/src/master/">Repositorio</a>
+                </p>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!--fin del carrusel de proyectos-->
+      </section>
+
+      <footer id="final"> <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, quae. Repudiandae tempora blanditiis, deleniti, voluptatibus dolorum deserunt quae aliquam earum quibusdam, ut illum dolorem. Maiores totam alias quia blanditiis deleniti.</p></footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
