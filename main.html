@@ -3,25 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Portafolio</title>
 </head>
 <body class="mx-2 px-4">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top border border-dark rounded-bottom">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top rounded-bottom">
         <div class="container-fluid position-sticky">
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="collapse navbar-collapse bg-main" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link text-black" aria-current="page" href="#abo">Sobre mi</a>
               <a class="nav-link" aria-current="page" href="#tec">Tecnologias</a>
-              <a class="nav-link" aria-current="page" href="#">Proyectos</a>
+              <a class="nav-link" aria-current="page" href="#proy">Proyectos</a>
               <a class="nav-link" aria-current="page" href="#final">Footer</a>
             </div>
           </div>
         </div>
       </nav>
 
-      <section id="abo" class="border mt-5 pt-3">
-        <h1>Sobre mi</h1>
+      <section id="abo" class="border my-5 py-3">
+        <h1 class="bg-blue">Sobre mi</h1>
           <p>
             Mi nombre es Erik, soy programador que le gusta el backend y software, aunque también he hecho proyectos fronend y móviles. Mis pasatiempos son las películas y series,
             he leído solo algunos libros pero solo después de ver la película porque me intereso como seguía así que comencé a leerlos, por parte de 
@@ -30,51 +31,68 @@
           </p>
       </section>
 
-      <section id="tec" class="border mt-5 pt-3">
-        <h1>Tecnologias</h1>
+      <section id="tec" class="my-5 py-3">
+        <h1 class="bg-blue">Tecnologias</h1>
         <br>
-        <p>Tecnologias que se han usado en los diferentes proyectos que he hecho</p>
+        <p>Las tecnologías mencionadas, son usadas para desarrollar proyectos personales y escolares,
+           la experiencia con cada una de ellas es diferente con algunas no es tan extensa como con 
+           otras que se profundiza en varios proyectos.</p>
         <!--Carrusel tecnologias-->
         <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark">
-          <div class="carousel-inner position-relative">
+          <div class="carousel-inner position-relative text-center">
             <div class="carousel-item active">
               <div>
                 <img class="mx-auto d-block py-3" src="img/js-icon-2.png" alt="...">
+                <a href="https://www.freepik.es/icono/js_5968292#fromView=search&page=1&position=0&uuid=584a306b-4112-4969-9aff-be59e9f5ab02">Icono de Freepik</a>
                 <div class="row">
-                  <div class="col"><img class="mx-auto d-block pb-2" src="img/node.png" alt=""></div>
-                  <div class="col pb-2"><img class="mx-auto d-block" src="img/react.png" alt=""></div>
+                  <div class="col">
+                    <img class="mx-auto d-block pb-2" src="img/node.png" alt="">
+                    <a href="https://www.flaticon.es/iconos-gratis/nodo" title="nodo iconos">Nodo iconos creados por pocike - Flaticon</a>
+                  </div>
+                  <div class="col pb-2">
+                    <img class="mx-auto d-block" src="img/react.png" alt="">
+                    <a href="https://www.freepik.es/icono/reaccionar_1183672#fromView=search&page=1&position=3&uuid=2de9059e-4fbf-487a-b61d-f9910eb4063b">Icono de Freepik</a>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
               <img class="mx-auto d-block py-3" src="img/html.png" alt="...">
+              <a href="https://www.freepik.es/icono/html-5_5968267#fromView=search&page=1&position=0&uuid=6b0ca00c-713f-4cf7-b4db-2a782abd12d5">Icono de Freepik</a>
             </div>
             <div class="carousel-item">
               <img class="mx-auto d-block py-3" src="img/css.png" alt="...">
-              <div class="text-center">
-                <img class="mx-auto d-block py-3" src="img/boot-1.png" alt="...">
-                <span>Bootstrap icon by Icons8</span>
+              <a href="https://www.freepik.es/icono/css-3_5968242#fromView=search&page=1&position=1&uuid=7b2f5779-cc7a-48d5-b1e2-cafc23b399cf">Icono de Freepik</a>
+              <div>
+                <img class="mx-auto d-block py-3" src="img/boot.png" alt="...">
+                <a href="https://icons8.com/icon/PndQWK6M1Hjo/bootstrap">Bootstrap icon by Icons8</a>
               </div>
             </div>
             <div class="carousel-item">
               <div>
                 <img class="mx-auto d-block py-3" src="img/py.png" alt="...">
+                <a href="https://www.flaticon.es/iconos-gratis/archivo-de-python" title="archivo de python iconos">Archivo de python iconos creados por Flat Icons - Flaticon</a>
                 <div>
                   <img class="mx-auto d-block py-3" src="img/flask.png" alt="...">
+                  <a href="https://icons8.com/icon/AqYCfGyGXlO7/flask">Flask icon by Icons8</a>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
               <img class="mx-auto d-block py-3" src="img/java.png" alt="...">
+              <a href="https://www.flaticon.es/iconos-gratis/java" title="java iconos">Java iconos creados por Freepik - Flaticon</a>
             </div>
             <div class="carousel-item">
               <img class="mx-auto d-block py-3" src="img/mysql.png" alt="...">
+              <a href="https://www.flaticon.es/iconos-gratis/mysql" title="mysql iconos">Mysql iconos creados por Pixel perfect - Flaticon</a>
             </div>
             <div class="carousel-item">
               <img class="mx-auto d-block py-3" src="img/php.png" alt="...">
+              <a href="https://www.flaticon.es/iconos-gratis/php" title="php iconos">Php iconos creados por Freepik - Flaticon</a>
             </div>
             <div class="carousel-item">
               <img class="mx-auto d-block py-3" src="img/postgre.png" alt="...">
+              <a href="https://www.flaticon.es/iconos-gratis/postgre" title="postgre iconos">Postgre iconos creados por Freepik - Flaticon</a>
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -104,12 +122,12 @@
       </div>-->
       </section>
 
-      <section>
-        <h1>Proyectos</h1>
+      <section id="proy" class="my-5 py-3">
+        <h1 class="bg-blue">Proyectos</h1>
 
         <!--carrusel-->
 
-        <div id="carouselProyectos" class="carousel slide border border-black rounded" data-bs-ride="carousel">
+        <div id="carouselProyectos" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <h2>Veterinaria</h2>
@@ -223,11 +241,11 @@
       -->
       <footer id="final" class="py-2"> 
         <div class="py-3">
-          <div class="text-center">
+          <div class="text-center bg-main">
+            <p>Contacto:</p>
             <a href=""><img class="mx-auto d-block" src="img/github-1.png" alt=""></a>
             <img class="mx-auto d-block" src="img/gmail.png" alt="">
           </div>
-          <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, quae. Repudiandae tempora blanditiis, deleniti, voluptatibus dolorum deserunt quae aliquam earum quibusdam, ut illum dolorem. Maiores totam alias quia blanditiis deleniti.</p>
         </div>
       </footer>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

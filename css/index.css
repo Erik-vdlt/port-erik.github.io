@@ -1,14 +1,14 @@
-body {
+/*body {
     margin-left: 3%;
     font-family: 'Times New Roman', Times, serif;
-    background: #4B79A1;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #4B79A1;  /* fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  
+    background: linear-gradient(to right, #283E51, #4B79A1); 
 }
 
 section.intro {
-    /*border: 1px black solid;*/
-    /*margin-left: 3%; #283E51*/
+    border: 1px black solid;
+    /*margin-left: 3%; #283E51
     text-align: center;
     margin-right: 3%;
     box-shadow: 5px 5px 5px #E4E7E9;
@@ -94,7 +94,7 @@ section > .list {
 
 .project {
     text-align: justify;
-    /*border: 1px black solid;*/
+    border: 1px black solid;
     margin-right: 3%;
     box-shadow: 5px 5px 5px #E4E7E9;
     margin-top: 2%;
@@ -149,4 +149,12 @@ footer > p{
         visibility: hidden;
         opacity: 0;
     }
+}
+*/
+.bg-blue {
+    background-color: #becaff;
+}
+
+.bg-main {
+    background-color: #5271ff;
 }
